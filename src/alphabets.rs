@@ -1,0 +1,12 @@
+pub const BASE16: &str = "0123456789ABCDEF";
+pub const BASE32: &str = "234567ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+pub const BASE36: &str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+pub const BASE52: &str = "0123456789BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz";
+pub const BASE56: &str = "23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz";
+pub const BASE58: &str = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
+pub const BASE62: &str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+pub const BASE64: &str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
+pub const BASE94: &str = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~";
+pub const CROCKFORD_BASE32: &str = "0123456789ABCDEFGHJKMNPQRSTVWXYZ";
+pub const ZBASE32: &str = "ybndrfg8ejkmcpqxot1uwisza345h769";
+pub const BASE64_URL_SAFE: &str = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_";
