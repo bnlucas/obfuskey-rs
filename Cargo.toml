@@ -1,7 +1,10 @@
 [package]
 name = "obfuskey"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
+license = "MIT"
+repository = "https://github.com/bnlucas/obfuskey-rs"
+description = "Cross-language compatible integer obfuscation and bit-packing library"
 
 [dependencies]
 num-bigint = "0.4"
